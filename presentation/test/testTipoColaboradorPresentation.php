@@ -5,7 +5,7 @@ include_once '../../business/tipoColaboradorBusiness.php';
 
 $tipoColaboradorBusiness=new tipoColaboradorBusiness();
 
-echo 'HOLA MUNDO!!!';
+echo 'HOLA MUNDO!';
 //$tipoColaborador=new tipoColaborador(1, "Directo");
 //$tipoColaboradorBusiness->insertTipoColaborador($tipoColaborador);
 
