@@ -26,5 +26,5 @@ class conexionBaseDatos {
         mysqli_close($this->conexion);
     }  
     
-}
+}//End conexionBaseDatos
 ?>
