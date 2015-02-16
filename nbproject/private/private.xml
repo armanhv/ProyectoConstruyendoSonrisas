@@ -3,10 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/ProyectoConstruyendoSonrisas/data/colaboradorData.php</file>
-            <file>file:/C:/xampp/htdocs/ProyectoConstruyendoSonrisas/data/telefonoEmpleadoData.php</file>
-            <file>file:/C:/xampp/htdocs/ProyectoConstruyendoSonrisas/data/tipoColaboradorData.php</file>
-            <file>file:/C:/xampp/htdocs/ProyectoConstruyendoSonrisas/domain/colaborador.php</file>
+            <file>file:/C:/wamp/www/ProyectoConstruyendoSonrisas/business/colaboradorBusiness.php</file>
+            <file>file:/C:/wamp/www/ProyectoConstruyendoSonrisas/data/colaboradorData.php</file>
+            <file>file:/C:/wamp/www/ProyectoConstruyendoSonrisas/domain/colaborador.php</file>
+            <file>file:/C:/wamp/www/ProyectoConstruyendoSonrisas/presentation/test/testColaboradorPresentation.php</file>
         </group>
     </open-files>
 </project-private>

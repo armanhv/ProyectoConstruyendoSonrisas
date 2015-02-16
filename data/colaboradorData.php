@@ -31,12 +31,33 @@ class colaboradorData{
     
     //deleteColaborador
     public function deleteColaborador($cedulaColaborador){
-     
+        $query  = "delete from tbcolaborador where ( cedulaColaborador = " . $cedulaColaborador .")";
+        $result = mysqli_query($this->conexionBaseDatos->abrirConexion(), $query);
+        $this->conexionBaseDatos->cerrarConexion();
+        if($result){
+            return true;
+        }else{
+            return false;
+        }
     }//End deleteColaborador
     
     //updateColaborador
-    public function updateColaborador($cedulaColaborador){
-       
+    public function updateColaborador($colaborador){
+        $query = "update tbcolaborador set " 
+                . " nombreEmpleado = '" . $colaborador->nombreEmpleado   . "',"
+                . " primerApellido = '" . $colaborador->primerApellido   . "',"
+                . " segundoApellido = '" . $colaborador->segundoApellido . "',"
+                . " direccion = '" . $colaborador->direccion             . "',"
+                . " email = '" . $colaborador->email                     . "',"
+                . " descripcion = '" . $colaborador->descripcion         . "'"
+                . " where (cedulaColaborador = " . $colaborador->cedulaColaborador .")";
+        $result = mysqli_query($this->conexionBaseDatos->abrirConexion(), $query);
+        $this->conexionBaseDatos->cerrarConexion();
+        if($result){
+            return true;
+        }else{
+            return false;
+        }
     }//End updateColaborador
     
 }//End colaboradorData
