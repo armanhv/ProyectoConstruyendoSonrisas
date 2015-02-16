@@ -5,9 +5,9 @@ include_once '../../business/tipoColaboradorBusiness.php';
 
 $tipoColaboradorBusiness=new tipoColaboradorBusiness();
 
-//$tipoColaborador=new tipoColaborador(1, "Directo");
+//$tipoColaborador=new tipoColaborador(2, "Colaborador");
 //$tipoColaboradorBusiness->insertTipoColaborador($tipoColaborador);
-//echo 'HOLA MUNDO!';
+//echo 'Insertado correctamente';
 
 //$tipoColaboradorBusiness->deleteTipoColaborador(1);
 

@@ -19,8 +19,8 @@ class colaboradorBusiness{
        return $this->colaboradorData->deleteColaborador($cedulaColaborador); 
     }
     
-    public function updateColaborador($cedulaColaborador){
-        return $this->colaboradorData->updateTelefonoEmpleado($cedulaColaborador);
+    public function updateColaborador($colaborador){
+        return $this->colaboradorData->updateColaborador($colaborador);
     }
     
-}
+}//End colaboradorBusiness
